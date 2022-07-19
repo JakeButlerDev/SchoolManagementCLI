@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007eadb4-2a6b-45d0-bf2b-e56ff5077f2c" name="Changes" comment="Began School Management project, created Student class">
-      <change afterPath="$PROJECT_DIR$/src/schoolManagementSystem/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schoolManagementSystem/Teacher.java" afterDir="false" />
+    <list default="true" id="007eadb4-2a6b-45d0-bf2b-e56ff5077f2c" name="Changes" comment="Created Teacher and School classes. Need to expand on School.java">
+      <change afterPath="$PROJECT_DIR$/src/schoolManagementSystem/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schoolManagementSystem/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schoolManagementSystem/School.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/schoolManagementSystem/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schoolManagementSystem/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schoolManagementSystem/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schoolManagementSystem/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="schoolManagementSystem.Main" />
+      <module name="School Management CLI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="schoolManagementSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658023460691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created Teacher and School classes. Need to expand on School.java">
+      <created>1658108816600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658108816600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Began School Management project, created Student class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Began School Management project, created Student class" />
+    <MESSAGE value="Created Teacher and School classes. Need to expand on School.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Teacher and School classes. Need to expand on School.java" />
   </component>
 </project>

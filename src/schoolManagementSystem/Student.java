@@ -30,9 +30,11 @@ public class Student {
     }
 
 
+    // Pays the selected amount as fees to school.
     public void updateFeesPaid(int fees) {
 //        feesPaid = feesPaid + fees;
         feesPaid += fees;
+        School.updateTotalMoneyEarned(feesPaid);
     }
 
     public int getId() {
@@ -53,5 +55,16 @@ public class Student {
 
     public int getFeesTotal() {
         return feesTotal;
+    }
+
+    // Return the remaining fees owed by student.
+    public int getRemainingFees() {
+        return feesTotal - feesPaid;
+    }
+
+    @Override
+    public String toString() {
+        return "Student: " + name +
+                "\nTotal fees paid to date:$ " + feesPaid;
     }
 }
